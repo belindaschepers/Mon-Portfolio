@@ -1,0 +1,23 @@
+$titlecolor:#09928b !important;
+
+body{
+    background-color: #2a2a2e !important;
+}
+
+.text-primary{
+    color: $titlecolor;
+}
+
+.avatar{
+    position: relative;
+    top: 12em;
+}
+.descript{
+    color:white;
+    position: relative;
+    top:9em;
+    .who{
+        font-size: 20px;
+        color:$titlecolor
+    }
+}
