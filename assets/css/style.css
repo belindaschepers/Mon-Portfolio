@@ -8,7 +8,14 @@ body {
 
 .avatar {
   position: relative;
-  top: 12em;
+  top: 9em;
+}
+
+.who {
+  font-size: 25px;
+  position: relative;
+  top: 4em;
+  color: #09928b !important;
 }
 
 .descript {
@@ -17,8 +24,10 @@ body {
   top: 9em;
 }
 
-.descript .who {
-  font-size: 20px;
+.skills {
+  font-size: 25px;
   color: #09928b !important;
+  position: relative;
+  top: 15em;
 }
 /*# sourceMappingURL=style.css.map */

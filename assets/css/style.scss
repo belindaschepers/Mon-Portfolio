@@ -10,14 +10,22 @@ body{
 
 .avatar{
     position: relative;
-    top: 12em;
+    top: 9em;
+}
+.who{
+    font-size: 25px;
+    position: relative;
+    top:4em;
+    color:$titlecolor;
 }
 .descript{
     color:white;
     position: relative;
     top:9em;
-    .who{
-        font-size: 20px;
-        color:$titlecolor
-    }
+}
+.skills{
+    font-size: 25px;
+    color:$titlecolor;
+    position: relative;
+    top:15em;
 }

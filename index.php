@@ -30,7 +30,7 @@
         <a class="nav-link" href="#">Qui suis-je?<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Mon Parcours</a>
+        <a class="nav-link" href="#">Parcours&Compétences</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Mes traveaux</a>
@@ -44,19 +44,29 @@
  </header>
  <div class="container">
    <section class="row">
+     <div class="col-lg-12 offset-lg-5 who">
+     <p>Qui suis-je?</p>
+</div>
+</section>
+   <section class="row">
      <div class="col-lg-6">
        <div class="descript">
-         <p class="who">Qui suis-je?</p>
          <p>Petite nana passionnée d'informatique, de jeux vidéo, de musique et de code,
            je me suis lancée dans une aventure appelée BeCode. C'est une formation de 6mois durant laquelle
            j'ai appris les différents languages front-end et back-end (ma préférence allant vers le front-end),
            où j'ai eu l'occasion d'effectuer des traveaux en équipe, ainsi que de participer à un projet client
            pour la conception d'une imprimante 3D.
          </p>
+         <p>Je suis très curieuse des nouvelles technologies et ai une constante envie d'apprendre.</p>
   </div>
   </div>
      <div class ="col-lg-6">
  <img class="avatar" src="<?php echo $image_avatar;?>" >
+</div>
+</section>
+<section class="row">
+  <div class="col-lg-12 offset-lg-5 skills">
+    <p>Parcours&Compétences</p>
 </div>
 </section>
 </div>
