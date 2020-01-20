@@ -1,5 +1,7 @@
 <?php
  $image_avatar = ("Images/me-avatar.png");
+ $image_html = ("Images/html.png");
+ $image_css = ("Images/css.png");
 ?>
 
 <!doctype html>
@@ -30,7 +32,7 @@
         <a class="nav-link" href="#">Qui suis-je?<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Parcours&Compétences</a>
+        <a class="nav-link" href="#">Compétences</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Mes traveaux</a>
@@ -66,7 +68,12 @@
 </section>
 <section class="row">
   <div class="col-lg-12 offset-lg-5 skills">
-    <p>Parcours&Compétences</p>
+    <p>Compétences</p>
+</div>
+</section>
+<section class="row">
+  <div class="col-lg-4">
+    <img class="html" src="<?php echo $image_html;?>">
 </div>
 </section>
 </div>
