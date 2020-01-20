@@ -1,4 +1,5 @@
 $titlecolor:#09928b !important;
+$secondarycolor: white;
 
 body{
     background-color: #2a2a2e !important;
@@ -19,7 +20,7 @@ body{
     color:$titlecolor;
 }
 .descript{
-    color:white;
+    color: $secondarycolor;
     position: relative;
     top:9em;
 }
@@ -29,8 +30,20 @@ body{
     position: relative;
     top:15em;
 }
+.hard{
+    color: $secondarycolor;
+    position: relative;
+    top: 27em;
+}
+
+.soft{
+    color: $secondarycolor;
+    position: relative;
+    top: 27em;
+}
+
 .html{
     height: 30%;
     position: relative;
-    top: 25em;
+    top: 30em;
 }

@@ -31,9 +31,21 @@ body {
   top: 15em;
 }
 
+.hard {
+  color: white;
+  position: relative;
+  top: 27em;
+}
+
+.soft {
+  color: white;
+  position: relative;
+  top: 27em;
+}
+
 .html {
   height: 30%;
   position: relative;
-  top: 25em;
+  top: 30em;
 }
 /*# sourceMappingURL=style.css.map */

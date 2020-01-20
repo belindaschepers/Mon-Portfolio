@@ -72,6 +72,14 @@
 </div>
 </section>
 <section class="row">
+  <div class="col-lg-4 offset-lg-2 hard">
+    <p>Hard Skills</p>
+</div>
+<div class="col-lg-4 offset-lg-2 soft">
+    <p>Soft Skills</p>
+</div>
+</section>
+<section class="row">
   <div class="col-lg-4">
     <img class="html" src="<?php echo $image_html;?>">
 </div>
