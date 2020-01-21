@@ -9,6 +9,15 @@ body{
     color: $titlecolor;
 }
 
+.linkedin{
+    height: 2.5em;
+    width: 2.5em;
+}
+.github{
+    height: 3em;
+    width: 3em;
+}
+
 .avatar{
     position: relative;
     top: 9em;
@@ -25,25 +34,5 @@ body{
     top:9em;
 }
 .skills{
-    font-size: 25px;
-    color:$titlecolor;
-    position: relative;
-    top:15em;
-}
-.hard{
-    color: $secondarycolor;
-    position: relative;
-    top: 27em;
-}
-
-.soft{
-    color: $secondarycolor;
-    position: relative;
-    top: 27em;
-}
-
-.html{
-    height: 30%;
-    position: relative;
-    top: 30em;
+    margin-top: 20%;
 }
