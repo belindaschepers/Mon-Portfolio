@@ -37,4 +37,52 @@ body {
 .skills {
   margin-top: 20%;
 }
+
+.html {
+  height: 7em;
+  width: 7em;
+  margin-top: 10em;
+}
+
+.css {
+  height: 6em;
+  width: 4em;
+  margin-top: 10em;
+}
+
+.js {
+  height: 6.5em;
+  width: 6.5em;
+  margin-top: 10em;
+}
+
+.git {
+  height: 5em;
+  width: 5em;
+  margin-top: 10em;
+}
+
+.sass {
+  height: 7em;
+  width: 7em;
+  margin-top: 10em;
+}
+
+.php {
+  height: 4em;
+  width: 8em;
+  margin-top: 10em;
+}
+
+.hardskills {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: none;
+}
 /*# sourceMappingURL=style.css.map */

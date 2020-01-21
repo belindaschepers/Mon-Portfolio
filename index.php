@@ -4,6 +4,10 @@
  $image_css = ("Images/css.png");
  $image_linkedin = ("Images/linkedin.png");
  $image_github = ("Images/github.png");
+ $image_javascript = ("Images/javascript.png");
+ $image_git = ("Images/git.png");
+ $image_sass = ("Images/sass.png");
+ $image_php = ("Images/php.png");
 ?>
 
 <!doctype html>
@@ -45,8 +49,9 @@
     </ul>
   </div>
   <div class="nav-item social">
-    <a href="https://www.linkedin.com/in/belinda-schepers/" target="_blank"><img class="linkedin" src="<?php echo $image_linkedin;?>"></a>
-    <a href="https://github.com/belindaschepers" target="_blank"><img class="github" src="<?php echo $image_github;?>"></a>
+    <a href="https://www.linkedin.com/in/belinda-schepers/" target="_blank"><img class="linkedin" src="<?php echo $image_linkedin;?>" alt="linkedin"></a>
+    <a href="https://github.com/belindaschepers" target="_blank"><img class="github" src="<?php echo $image_github;?>" alt="github"></a>
+</div>
 </nav>
 
  </header>
@@ -69,13 +74,25 @@
   </div>
   </div>
      <div class ="col-lg-6">
-         <img class="avatar" src="<?php echo $image_avatar;?>" >
+         <img class="avatar" src="<?php echo $image_avatar;?>" alt="avatar">
   </div>
   </section>
    <section class="row">
      <div class="col-lg-12 offset-lg-5 who skills">
      <p>Mes compétences</p>
    </div>
+  </section>
+  <section class="row">
+    <div class="col-lg-12 hardskills">
+      <img class="html" src="<?php echo $image_html;?>" alt="html">
+      <img class="css" src="<?php echo $image_css;?>" alt="css">
+      <img class="js" src="<?php echo $image_javascript?>" alt="javascript">
+      <img class="git" src="<?php echo $image_git?>" alt="git">
+      <img class="sass" src="<?php echo $image_sass?>" alt="sass">
+      <img class="php" src="<?php echo $image_php?>" alt="php">
+  </div>
+
+
 </div>
 </body>
 </html>
