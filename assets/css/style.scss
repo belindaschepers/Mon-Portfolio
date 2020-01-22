@@ -72,3 +72,11 @@ body{
     display: flex;
     float: none;
 }
+.formu{
+    color: $secondarycolor;
+}
+.contact{
+    margin-top: 10em;
+}
+
+@import "_media-query.scss";

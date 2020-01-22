@@ -85,4 +85,12 @@ body {
   display: flex;
   float: none;
 }
+
+.formu {
+  color: white;
+}
+
+.contact {
+  margin-top: 10em;
+}
 /*# sourceMappingURL=style.css.map */

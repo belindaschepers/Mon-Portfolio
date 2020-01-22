@@ -91,7 +91,22 @@
       <img class="sass" src="<?php echo $image_sass?>" alt="sass">
       <img class="php" src="<?php echo $image_php?>" alt="php">
   </div>
-
+  </section>
+  <section class="row">
+    <div class="col-lg-12 offset-lg-5 who">
+     <p>Me contacter</p>
+    </div>
+  </section>
+  <section class="row">
+    <div class="col-lg-3 offset-lg-5 contact">
+    <form method="post" action="form.php">
+      <p class="formu">Name : <input type="text" name="name" placeholder="Entrez votre nom" /></p>
+      <p class="formu">Email : <input type="email" name="email" placeholder="Entrer votre Email" /></p>
+      <p class="formu">Votre Message: <textarea type="message" name ="message" placeholder="Votre message" maxlength="140" rows="5"></textarea></p>
+      <input type="submit" value="Submit" />
+    </form>
+   </div>
+</section>
 
 </div>
 </body>
