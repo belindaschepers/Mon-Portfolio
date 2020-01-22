@@ -65,7 +65,7 @@
      <div class="col-lg-6">
        <div class="descript">
          <p>Petite nana passionnée d'informatique, de jeux vidéo, de musique et de code,
-           je me suis lancée dans une aventure appelée BeCode. C'est une formation de 6mois durant laquelle
+           je me suis lancée dans une aventure appelée BeCode. C'est une formation de développeur web de 6mois durant laquelle
            j'ai appris les différents languages front-end et back-end (ma préférence allant vers le front-end),
            où j'ai eu l'occasion d'effectuer des traveaux en équipe, ainsi que de participer à un projet client
            pour la conception d'une imprimante 3D.

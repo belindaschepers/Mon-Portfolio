@@ -93,4 +93,23 @@ body {
 .contact {
   margin-top: 10em;
 }
+
+@media only screen and (max-width: 360px) {
+  .html {
+    height: 4em;
+    width: 4em;
+  }
+  .css {
+    height: 3.5em;
+    width: 3em;
+  }
+  .js {
+    height: 4em;
+    width: 6em;
+  }
+  .git {
+    height: 3em;
+    width: 3em;
+  }
+}
 /*# sourceMappingURL=style.css.map */
