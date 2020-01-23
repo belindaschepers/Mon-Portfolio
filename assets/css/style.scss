@@ -1,5 +1,5 @@
 $titlecolor:#09928b !important;
-$secondarycolor: white;
+$secondarycolor: white !important;
 
 body{
     background-color: #2a2a2e !important;
@@ -78,6 +78,9 @@ body{
 }
 .contact{
     margin-top: 10em;
+}
+.copy{
+    color: $secondarycolor;
 }
 
 @import "_media-query.scss";

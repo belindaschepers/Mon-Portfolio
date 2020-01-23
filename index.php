@@ -27,24 +27,24 @@
 
 <body>
  <header>
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand text-primary" href="#">Belinda Schepers</a>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand text-primary" href="#a-propos">Belinda Schepers</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Qui suis-je?<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#a-propos">Qui suis-je?<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Compétences</a>
+        <a class="nav-link" href="#competences">Compétences</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Mes traveaux</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Me contacter</a>
+        <a class="nav-link" href="#contact">Me contacter</a>
       </li>
     </ul>
   </div>
@@ -57,7 +57,7 @@
  </header>
  <div class="container">
    <section class="row">
-     <div class="col-lg-12 offset-lg-5 who">
+     <div class="col-lg-12 offset-lg-5 who" id="a-propos">
      <p>Qui suis-je?</p>
 </div>
 </section>
@@ -78,7 +78,7 @@
   </div>
   </section>
    <section class="row">
-     <div class="col-lg-12 offset-lg-5 who skills">
+     <div class="col-lg-12 offset-lg-5 who skills" id="competences">
      <p>Mes compétences</p>
    </div>
   </section>
@@ -93,7 +93,7 @@
   </div>
   </section>
   <section class="row">
-    <div class="col-lg-12 offset-lg-5 who">
+    <div class="col-lg-12 offset-lg-5 who" id="contact">
      <p>Me contacter</p>
     </div>
   </section>
@@ -107,7 +107,18 @@
     </form>
    </div>
 </section>
-
 </div>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 bg-dark"><span class="copy">© 2020 Copyright:</span>
+    <a href="https://www.linkedin.com/in/belinda-schepers/"> Belinda Schepers</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 </body>
 </html>
