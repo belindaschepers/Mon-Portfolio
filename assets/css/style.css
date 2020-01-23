@@ -38,6 +38,30 @@ body {
   margin-top: 20%;
 }
 
+.hardskills {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: none;
+}
+
+.formu {
+  color: white !important;
+}
+
+.contact {
+  margin-top: 10em;
+}
+
+.copy {
+  color: white !important;
+}
+
 .html {
   height: 7em;
   width: 7em;
@@ -74,30 +98,6 @@ body {
   margin-top: 10em;
 }
 
-.hardskills {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  float: none;
-}
-
-.formu {
-  color: white !important;
-}
-
-.contact {
-  margin-top: 10em;
-}
-
-.copy {
-  color: white !important;
-}
-
 @media only screen and (max-width: 360px) {
   .html {
     height: 4em;
@@ -113,7 +113,7 @@ body {
   }
   .git {
     height: 3em;
-    width: 3em;
+    width: 4em;
   }
   .sass {
     height: 4em;
