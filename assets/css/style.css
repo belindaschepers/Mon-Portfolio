@@ -1,3 +1,66 @@
+.html {
+  height: 7em;
+  width: 7em;
+  margin-top: 10em;
+}
+
+.css {
+  height: 6em;
+  width: 4em;
+  margin-top: 10em;
+}
+
+.js {
+  height: 6.5em;
+  width: 6.5em;
+  margin-top: 10em;
+}
+
+.git {
+  height: 5em;
+  width: 5em;
+  margin-top: 10em;
+}
+
+.sass {
+  height: 7em;
+  width: 7em;
+  margin-top: 10em;
+}
+
+.php {
+  height: 4em;
+  width: 8em;
+  margin-top: 10em;
+}
+
+@media only screen and (max-width: 360px) {
+  .html {
+    height: 4em;
+    width: 4em;
+  }
+  .css {
+    height: 3.5em;
+    width: 3em;
+  }
+  .js {
+    height: 4em;
+    width: 5em;
+  }
+  .git {
+    height: 3em;
+    width: 4em;
+  }
+  .sass {
+    height: 4em;
+    width: 4em;
+  }
+  .php {
+    height: 3em;
+    width: 6em;
+  }
+}
+
 body {
   background-color: #2a2a2e !important;
 }
@@ -60,68 +123,5 @@ body {
 
 .copy {
   color: white !important;
-}
-
-.html {
-  height: 7em;
-  width: 7em;
-  margin-top: 10em;
-}
-
-.css {
-  height: 6em;
-  width: 4em;
-  margin-top: 10em;
-}
-
-.js {
-  height: 6.5em;
-  width: 6.5em;
-  margin-top: 10em;
-}
-
-.git {
-  height: 5em;
-  width: 5em;
-  margin-top: 10em;
-}
-
-.sass {
-  height: 7em;
-  width: 7em;
-  margin-top: 10em;
-}
-
-.php {
-  height: 4em;
-  width: 8em;
-  margin-top: 10em;
-}
-
-@media only screen and (max-width: 360px) {
-  .html {
-    height: 4em;
-    width: 4em;
-  }
-  .css {
-    height: 3.5em;
-    width: 3em;
-  }
-  .js {
-    height: 4em;
-    width: 5em;
-  }
-  .git {
-    height: 3em;
-    width: 4em;
-  }
-  .sass {
-    height: 4em;
-    width: 4em;
-  }
-  .php {
-    height: 3em;
-    width: 6em;
-  }
 }
 /*# sourceMappingURL=style.css.map */

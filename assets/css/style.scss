@@ -1,6 +1,9 @@
 $titlecolor:#09928b !important;
 $secondarycolor: white !important;
 
+@import "_skills.scss";
+@import "_media-query.scss";
+
 body{
     background-color: #2a2a2e !important;
 }
@@ -53,5 +56,3 @@ body{
 .copy{
     color: $secondarycolor;
 }
-@import "_skills.scss";
-@import "_media-query.scss";
