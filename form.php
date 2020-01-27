@@ -52,9 +52,9 @@
                     $entete .= 'From: ' . $email . "\r\n";
 
                     $message_to_send = '
-                    <p><b>Nom-Prénom : </b>' . $name . '<br>
-                    <b>Email : </b>' . $email . '<br>
-                    <b>Message : </b>' . $message . '</p>';
+                    <p><b>Nom-Prénom : </b>' . $name . '</p>
+                    <p><b>Email : </b>' . $email . '</p>
+                    <p><b>Message : </b>' . $message . '</p>';
 
                     $retour = mail('indique tonmail@gmail.com', 'Formulaire de contact', $message_to_send, $entete);
                     if($retour) {
