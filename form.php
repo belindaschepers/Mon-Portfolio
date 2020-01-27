@@ -5,22 +5,14 @@
       <input type="submit" name ="submit" value="Submit" />
     </form>
 <?php
-    // Methode asynchorme comme pour js ... en format php ....
+    
     try
     {
     $bdd = new PDO('mysql:host=localhost;dbname=Portfolioform;charset=utf8', 'user', 'user');
-        // Nouvelle méthode
+
             if ( $_SERVER["REQUEST_METHOD"] == "POST" AND isset($_POST["submit"]) ) {
-                //Vieille méthode
-                // $host = "localhost";
-                // $username = "user";
-                // $password = "user";
-                // $database = "Portfolioform";
+
                 
-
-
-
-                // Sanatization ?!
                 $nameBefore = $_POST["name"]; 
                 $name = filter_var($nameBefore, FILTER_SANITIZE_STRING);
                 $emailBefore = $_POST["email"];

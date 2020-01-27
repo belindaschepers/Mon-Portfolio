@@ -41,11 +41,6 @@ INSERT INTO `users` (`id`, `name`, `email`) VALUES
 (2, 'jetest', 'jetest@jetest.be'),
 (3, 'test', 'jetest@jetest.be'),
 (4, 'testeuh', 'jetest@jetest.be'),
-(5, 'Est', 'estlle@edg.be'),
-(6, 'dfqsdfqs', 'estlle@edg.be'),
-(7, 'dfqsdfqs', 'estlle@edg.be'),
-(8, 'dfqsdfqs', 'estlle@edg.be'),
-(9, 'Estelle', 'beli.schep@gmail.com');
 
 --
 -- Index pour les tables exportées
