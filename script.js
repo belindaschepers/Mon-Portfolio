@@ -1,13 +1,20 @@
-let test = document.getElementById("test");
-let xhr = new XMLHttpRequest();
+let todo = document.getElementById("")
 
-xhr.onreadystatechange = function(){
-    console.log(this);
-    if(this.readyState == 4 && this.status == 200){
-      test.innerHTML = this.response;
-    }
-};
+async function showRepository(){
+    let url = "https://api.github.com/search/repositories?q=user:belindaschepers"
+    let fetching = await fetch(url)
+    let data = await fetching.json()
 
-xhr.open("GET" , "https://api.github.com/" , true);
-xhr.responseType = "text";
-xhr.send();
+    data.items.forEach(element => {
+        if(element.full_name === 'belindaschepers/todolist-json'){
+        let lien = document.createElement("a");
+        lien.href = element.html_url;
+        console.log(element.full_name);
+        lien.textContent = element.full_name
+        let resultat = document.createElement("p")
+        resultat.appendChild(lien)
+        todo.appendChild(resultat);
+        }
+    });
+}
+showRepository();

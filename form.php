@@ -1,8 +1,8 @@
 <form method="post" action="">
       <p class="formu">Name : <input type="text" name="name" placeholder="Entrez votre nom" /></p>
       <p class="formu">Email : <input type="email" name="email" placeholder="Entrer votre Email" /></p>
-      <p class="formu">Votre Message: <textarea type="message" name ="message" placeholder="Votre message" maxlength="140" rows="5"></textarea></p>
-      <input type="submit" name ="submit" value="Submit" />
+      <p class="formu">Message: <textarea type="message" name ="message" placeholder="Votre message" maxlength="140" rows="5"></textarea></p>
+      <button type="submit" class="btn btn-default"><img class="sendbutton" src="Images/sendme.png" alt="bouton"></button>
     </form>
 <?php
     
@@ -20,7 +20,6 @@
                 $messageBefore = $_POST["message"];
                 $message = filter_var($messageBefore, FILTER_SANITIZE_STRING);
 
-                mail('belindaschepers1@gmail.com' , 'Formulaire de contact' , $message);
                     
                 if (!isset($name)){
                     die("S'il vous plaît entrez votre nom");
@@ -48,7 +47,7 @@
                     <p><b>Email : </b>' . $email . '</p>
                     <p><b>Message : </b>' . $message . '</p>';
 
-                    $retour = mail('indique tonmail@gmail.com', 'Formulaire de contact', $message_to_send, $entete);
+                    $retour = mail('belindaschepers1@gmail.com', 'Formulaire de contact', $message_to_send, $entete);
                     if($retour) {
                         echo '<body onLoad="alert(\'Votre message a bien été envoyé.\')">';
                     }

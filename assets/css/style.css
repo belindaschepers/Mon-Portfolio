@@ -59,6 +59,9 @@
     height: 3em;
     width: 6em;
   }
+  button {
+    margin-left: 4em;
+  }
 }
 
 body {
@@ -119,6 +122,12 @@ body {
 
 .contact {
   margin-top: 10em;
+}
+
+.sendbutton {
+  height: 3em;
+  width: 3em;
+  margin-left: 3.5em;
 }
 
 .copy {

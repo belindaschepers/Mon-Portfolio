@@ -29,9 +29,6 @@
  <header>
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <a class="navbar-brand text-primary" href="#a-propos">Belinda Schepers</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
@@ -77,7 +74,6 @@
          <img class="avatar" src="<?php echo $image_avatar;?>" alt="avatar">
   </div>
   </section>
-  <div id="test"></div>
    <section class="row">
      <div class="col-lg-12 offset-lg-5 who skills" id="competences">
      <p>Mes compétences</p>
@@ -91,6 +87,11 @@
       <img class="git" src="<?php echo $image_git?>" alt="git">
       <img class="sass" src="<?php echo $image_sass?>" alt="sass">
       <img class="php" src="<?php echo $image_php?>" alt="php">
+  </div>
+  </section>
+  <section class="row">
+    <div class="col-lg-12 offset-lg-5 who">
+    <p>Mes traveaux</p>
   </div>
   </section>
   <section class="row">
